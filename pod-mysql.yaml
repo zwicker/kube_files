@@ -11,7 +11,7 @@ spec:
       env:
         - name: MYSQL_ROOT_PASSWORD
           # change this
-          value: yourpassword
+          value: chicken
       ports:
         - containerPort: 3306
           name: mysql
