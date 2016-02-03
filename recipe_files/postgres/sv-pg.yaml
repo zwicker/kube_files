@@ -4,7 +4,7 @@ metadata:
   name: postgres-service
 spec:
   ports:
-  - port: 8000 # the port that this service should serve on
+  - port: 5432 # the port that this service should serve on
     # the container on each pod to connect to, can be a name
     # (e.g. 'www') or a number (e.g. 80)
     targetPort: 5432
